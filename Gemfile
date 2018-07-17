@@ -46,3 +46,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # 『dotenv』で環境変数を管理する方法(http://vdeep.net/rubyonrails-dotenv)
 gem 'dotenv-rails'
+
+gem 'httpclient'
