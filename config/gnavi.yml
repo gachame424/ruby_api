@@ -1,0 +1,12 @@
+defaults: &defaults
+  url: https://www.gnavi.co.jp/
+
+development:
+  <<: *defaults
+  url: https://api.gnavi.co.jp/RestSearchAPI/20150630/
+
+production:
+  <<: *defaults
+
+test: &test
+  <<: *defaults
